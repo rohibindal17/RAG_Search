@@ -17,3 +17,19 @@ RAG Search combines the power of semantic document retrieval with large language
 📂 Adding Your Data
 
 Place your source documents in the data/ directory. Supported formats depend on the loaders configured in src/. After adding new documents, re-run the indexing step (if applicable) before querying.
+
+🖥️ Usage
+
+Streamlit Web App
+
+run streamlit_app.py
+
+Open your browser at http://localhost:8501 and start querying your documents through the interactive UI.
+
+Command-Line Interface
+
+run python main.py
+
+Follow the prompts to enter a query and receive a RAG-generated response directly in your terminal.
+
+
