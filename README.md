@@ -1,37 +1,129 @@
-🔍 RAG Search
+# 🔎 RAG Search
 
-A Retrieval-Augmented Generation (RAG) powered search application built in Python, featuring both a command-line interface and an interactive Streamlit web UI.
+### Production-Grade Retrieval-Augmented Generation Pipeline for Intelligent Document Search
 
-📖 Overview
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![LLM](https://img.shields.io/badge/LLM-OpenAI%20%7C%20Local-green)
+![VectorDB](https://img.shields.io/badge/VectorDB-FAISS-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-RAG Search combines the power of semantic document retrieval with large language model generation to answer queries grounded in your own data. Instead of relying solely on a model's training knowledge, the system first retrieves the most relevant document chunks from a local data store and then passes them as context to the LLM - producing accurate, source-backed responses.
+A **high-performance Retrieval-Augmented Generation (RAG) system**
+designed for semantic search and knowledge-grounded question answering
+across large document collections.
 
-✨ Features
+------------------------------------------------------------------------
 
-1. Semantic Search - Embeds documents and queries into vector space for similarity-based retrieval
-2. Augmented Generation - Feeds retrieved context into an LLM to generate grounded answers
-3. Streamlit UI - Clean, interactive web interface for querying the knowledge base
-4. CLI Support - Run queries directly from the terminal via main.py
-5. Local Data - Bring your own documents; data is stored and indexed locally in the data/ directory
+# 🚀 Demo
 
-📂 Adding Your Data
+Example query:
 
-Place your source documents in the data/ directory. Supported formats depend on the loaders configured in src/. After adding new documents, re-run the indexing step (if applicable) before querying.
+User Question: What is Retrieval-Augmented Generation?
 
-🖥️ Usage
+System response:
 
-1. Streamlit Web App
+Retrieval-Augmented Generation (RAG) is a hybrid AI architecture that
+combines information retrieval with large language models. It retrieves
+relevant documents from a knowledge base and uses them as context for
+generating accurate responses.
 
-run streamlit_app.py
-Open your browser at http://localhost:8501 and start querying your documents through the interactive UI.
+------------------------------------------------------------------------
 
-2. Command-Line Interface
+# ✨ Key Features
 
-run python main.py
-Follow the prompts to enter a query and receive a RAG-generated response directly in your terminal.
+-   🔍 Semantic Search\
+-   🧠 Context-Aware LLM Responses\
+-   ⚡ High Performance Retrieval\
+-   📄 Automated Document Pipeline\
+-   🧩 Modular Architecture\
+-   🏗 Production-Ready Design
 
-📂 Adding Your Data
+------------------------------------------------------------------------
 
-Place your source documents in the data/ directory. Supported formats depend on the loaders configured in src/. After adding new documents, re-run the indexing step (if applicable) before querying.
+# 🧠 System Architecture
 
+User Question → Query Embedding → Vector Database → Top-K Documents →
+Context Builder → LLM → Final Response
 
+------------------------------------------------------------------------
+
+# 📂 Repository Structure
+
+RAG_Search
+
+├── data/
+
+├── src/
+
+│ ├── ingestion
+
+│ ├── embeddings
+
+│ ├── retrieval
+
+│ ├── generation
+
+│ └── utils
+
+├── main.py
+
+├── requirements.txt
+
+└── README.md
+
+------------------------------------------------------------------------
+
+# ⚙️ Installation
+
+## Clone Repository
+
+git clone https://github.com/rohibindal17/RAG_Search.git cd RAG_Search
+
+## Create Virtual Environment
+
+python -m venv venv
+
+Windows: venv`\Scripts`{=tex}`\activate`{=tex}
+
+Mac/Linux: source venv/bin/activate
+
+## Install Dependencies
+
+pip install -r requirements.txt
+
+------------------------------------------------------------------------
+
+# ▶️ Run the Project
+
+python main.py
+
+------------------------------------------------------------------------
+
+# 🛠 Tech Stack
+
+  Layer        Technology
+  ------------ -----------------------
+  Language     Python
+  LLM          OpenAI / Local LLM
+  Framework    LangChain
+  Vector DB    FAISS / Chroma
+  Embeddings   Sentence Transformers
+
+------------------------------------------------------------------------
+
+# 👨‍💻 Author
+
+**Rohi Bindal**\
+AI/ML Researcher\
+MSc Machine Learning --- Stevens Institute of Technology
+
+GitHub: https://github.com/rohibindal17
+
+------------------------------------------------------------------------
+
+# ⭐ Support
+
+If you found this useful:
+
+⭐ Star the repository\
+🍴 Fork the project\
+📢 Share with others
