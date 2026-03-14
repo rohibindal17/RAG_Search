@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) powered search application built in Pytho
 
 📖 Overview
 
-RAG Search combines the power of semantic document retrieval with large language model generation to answer queries grounded in your own data. Instead of relying solely on a model's training knowledge, the system first retrieves the most relevant document chunks from a local data store and then passes them as context to the LLM — producing accurate, source-backed responses.
+RAG Search combines the power of semantic document retrieval with large language model generation to answer queries grounded in your own data. Instead of relying solely on a model's training knowledge, the system first retrieves the most relevant document chunks from a local data store and then passes them as context to the LLM - producing accurate, source-backed responses.
 
 ✨ Features
 
