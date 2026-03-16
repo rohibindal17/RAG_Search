@@ -60,12 +60,14 @@ streamlit run streamlit_app.py
 
 # 🛠 Tech Stack
 
-  Layer        Technology
-  ------------ -----------------------
   Language     Python
+  
   LLM          Groq
+  
   Framework    LangChain/ Langgraph
+  
   Vector DB    FAISS 
+  
   Embeddings   Sentence Transformers
 
 ------------------------------------------------------------------------
