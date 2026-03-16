@@ -60,15 +60,15 @@ streamlit run streamlit_app.py
 
 # 🛠 Tech Stack
 
-  Language     Python
+  Language:     Python
   
-  LLM          Groq
+  LLM:          Groq
   
-  Framework    LangChain/ Langgraph
+  Framework:    LangChain/ Langgraph
   
-  Vector DB    FAISS 
+  Vector DB:    FAISS 
   
-  Embeddings   Sentence Transformers
+  Embeddings:   Sentence Transformers
 
 ------------------------------------------------------------------------
 
